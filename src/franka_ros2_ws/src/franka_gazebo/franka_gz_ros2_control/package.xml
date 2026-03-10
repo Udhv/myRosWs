@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>franka_gz_ros2_control</name>
+  <version>3.2.0</version>
+  <description>gazebo ros2_control package allows to control simulated robots using ros2_control framework. </description>
+  <maintainer email="support@franka.de">Franka Robotics GmbH</maintainer>
+
+  <license>Apache 2</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>ament_index_cpp</depend>
+
+  <depend>gz_sim_vendor</depend>
+  <depend>gz_plugin_vendor</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>yaml_cpp_vendor</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>hardware_interface</depend>
+  <depend>controller_manager</depend>
+  <depend>franka_hardware</depend>
+
+  <test_depend>ament_cmake</test_depend>
+  <test_depend>ament_cmake_clang_format</test_depend>
+  <test_depend>ament_cmake_clang_tidy</test_depend>
+  <test_depend>ament_cmake_copyright</test_depend>
+  <test_depend>ament_cmake_cppcheck</test_depend>
+  <test_depend>ament_cmake_flake8</test_depend>
+  <test_depend>ament_cmake_gmock</test_depend>
+  <test_depend>ament_cmake_lint_cmake</test_depend>
+  <test_depend>ament_cmake_pep257</test_depend>
+  <test_depend>ament_cmake_xmllint</test_depend>
+
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+</package>
